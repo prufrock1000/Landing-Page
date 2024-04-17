@@ -1,0 +1,23 @@
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 24px;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.head{
+    font-weight: bold;}
+    
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        gap: 24px;
+    }
+
