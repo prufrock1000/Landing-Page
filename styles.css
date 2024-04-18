@@ -78,3 +78,9 @@ padding: 50px;
     border-radius: 10px;
 
 }
+.description{
+    text-align: center;
+    color:#1F2937;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
