@@ -2,9 +2,8 @@
 .header{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 24px;
     font-size: 24px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -34,19 +33,48 @@ width:300px}
 h1{
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .text{
 font-size: 18px;
 color: #E5E7EB;
 justify-content: left;
+align-items: left;
+}
+
+button{
+
+    background-color: #3882F6;
+    color:#E5E7EB;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .main{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 background-color: #1F2937;
 display:flex;
-justify-content: space-between;
-padding: 64px;
+justify-content: space-around;
+padding: 50px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.whimsy{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    color: #1F2937;
+}
+.pic{
+    border: solid 5px #3882F6;
+    border-radius: 10px;
+
 }
