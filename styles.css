@@ -76,6 +76,7 @@ padding: 50px;
 .pic{
     border: solid 5px #3882F6;
     border-radius: 10px;
+    
 
 }
 .description{
@@ -105,3 +106,12 @@ padding: 50px;
     font-weight: bold;
     
 }
+
+.top{display: flex;
+flex-direction: column;}
+
+.box{
+    display: flex;
+
+}
+
